@@ -20,10 +20,8 @@ Task 2: Data Processing in Snowflake
 1. Convert the provided Excel data to CSV.
 2. Load the CSV into Snowflake
 3. Perform data transformations:
-• Create a new column: transaction_time_bucket to group transactions into hourly intervals)
-• Cast unit_price properly (some entries use commas, e.g., '3,1' should be converted 
-to 3.1)
-• Calculation of total_amount_of_sales = unit_price * transaction_qty
+• Create a new column: transaction_time_bucket to group transactions into hourly intervals
+Calculation of total_amount_of_sales = unit_price * transaction_qty
 • Use SQL to group by product types, time buckets, etc.
 You can add on the above, this is just to give you an idea of what is expected from the Data 
 Processing.
